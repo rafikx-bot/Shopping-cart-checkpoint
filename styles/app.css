@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.totalelement{
+    margin-left: 10%;
+}
+.cart-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cart{
+    border: 1px black solid;
+    width: 400px;
+    height: 300px;
+    padding-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.action-btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin-right: 15px;
+}
